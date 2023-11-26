@@ -3,7 +3,7 @@ export const ResponsiveHeader = () => {
   return (
     <div className="main-wrapper">
       <div className="responsive-header-container">
-        <div className="header-logo">Responsive</div>
+        <div className="header-logo">LOGO</div>
         <div className="links-wrapper">
           <a href="#Home" className=" home">
             Home
