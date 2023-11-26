@@ -5,10 +5,10 @@ export const ResponsiveHeader = () => {
       <div className="responsive-header-container">
         <div className="header-logo">Responsive</div>
         <div className="links-wrapper">
-          <a href="#Home" className="responsive-home-links">
+          <a href="#Home" className=" home">
             Home
           </a>
-          <a href="#Contact" className="responsive-links">
+          <a href="#Contact" className="responsive-links contact">
             Contact
           </a>
           <a href="#About" className="responsive-links">

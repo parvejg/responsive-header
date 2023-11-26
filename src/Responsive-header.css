@@ -2,7 +2,7 @@
   display: flex;
   width: 80%;
   height: 100px;
-  background-color: seashell;
+  background-color: rgb(226, 206, 191);
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
@@ -14,7 +14,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 1rem;
 }
 .responsive-links {
@@ -24,25 +24,60 @@
   align-items: center;
   padding: 1rem;
 }
-.responsive-home-links {
+.home {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 22px;
-  height: 100%;
-  width: 100%;
   padding: 1rem;
 }
 .responsive-links:hover {
   background-color: rgb(196, 191, 191);
 }
-.responsive-home-links:hover {
-  background-color: rgb(196, 191, 191);
-}
+
 .links-wrapper {
   display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
 }
 .header-logo {
   font-size: 25px;
+  padding: 1rem;
+}
+.header-logo:hover {
+  background-color: rgb(196, 191, 191);
+}
+@media (max-width: 600px) {
+  .responsive-header-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    min-width: 90%;
+  }
+  .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 70%;
+  }
+
+  .responsive-links {
+    width: 100%;
+    text-align: left;
+  }
+  .contact {
+    width: 100%;
+    text-align: left;
+  }
+  .home {
+    width: 100%;
+    text-align: left;
+  }
+}
+.home {
+  background-color: green;
 }
