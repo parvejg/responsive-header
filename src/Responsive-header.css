@@ -1,12 +1,16 @@
 .responsive-header-container {
   display: flex;
   width: 80%;
-  height: 400px;
-  background-color: gainsboro;
-  justify-content: flex-end;
+  height: 100px;
+  background-color: seashell;
+  justify-content: space-between;
   gap: 1rem;
+  align-items: center;
 }
 .main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100%;
   display: flex;
@@ -16,20 +20,29 @@
 .responsive-links {
   text-decoration: none;
   color: black;
-  font-size: large;
-  padding-right: 1rem;
-  height: 100%;
+  font-size: 22px;
   align-items: center;
+  padding: 1rem;
 }
 .responsive-home-links {
   text-decoration: none;
   color: black;
-  font-size: large;
+  font-size: 22px;
   height: 100%;
+  width: 100%;
+  padding: 1rem;
 }
 .responsive-links:hover {
   background-color: rgb(196, 191, 191);
 }
 .responsive-home-links:hover {
   background-color: rgb(196, 191, 191);
+}
+.links-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.header-logo {
+  font-size: 25px;
 }
