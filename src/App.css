@@ -36,8 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.responsive-header-main-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}

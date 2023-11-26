@@ -1,9 +1,10 @@
 import "./App.css";
+import { ResponsiveHeader } from "./Responsive-header";
 
 function App() {
   return (
     <div className="App">
-      <div className="responsive-header-main-wrapper">jjjkjkjkjk</div>
+      <ResponsiveHeader />
     </div>
   );
 }
